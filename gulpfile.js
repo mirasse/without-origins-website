@@ -35,7 +35,7 @@ const shell = {
             rl.question(question, (answer) => {
                 rl.close();
                 r(answer);
-            });
+            }); 
         })
     },
 
